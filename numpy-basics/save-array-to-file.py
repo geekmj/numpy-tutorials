@@ -47,7 +47,7 @@ print("Data Type: ", array_rain_fall_npy.dtype.name)
 
 #%%
 
-# Saving multiple arrays in compressed npz format. Loading and reading the array.
+# Saving multiple arrays in npz format. Loading and reading the array.
 
 np.savez("saved-rain-fall-binary.npz", array_rain_fall, np.array([1, 2, 3, 4, 5]))
 
